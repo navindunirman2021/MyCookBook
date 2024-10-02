@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
+        // This is a update by Jika
+
         // Delay for 5 seconds before transitioning to LoginActivity
         new Handler().postDelayed(() -> {
             // Start LoginActivity
