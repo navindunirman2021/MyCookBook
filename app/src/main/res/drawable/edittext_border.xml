@@ -9,7 +9,7 @@
                 android:color="#FF0000" /> <!-- Border color changed to red -->
 
             <!-- Optional: Set corner radius for rounded edges -->
-            <corners android:radius="16dp" /> <!-- Radius increased to 16dp -->
+            <corners android:radius="500dp" /> <!-- Radius increased to 16dp -->
 
             <!-- Optional: Set background color -->
             <solid android:color="#FFDD99" /> <!-- Background color changed to light yellow -->

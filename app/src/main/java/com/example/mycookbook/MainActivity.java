@@ -14,11 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState); //This is a saved instance
+        super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-
-        // This is a update by Jika
 
         // Delay for 5 seconds before transitioning to LoginActivity
         new Handler().postDelayed(() -> {
